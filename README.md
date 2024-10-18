@@ -49,4 +49,4 @@ Proiectul integrează o bază de date creată în MySQL (via XAMPP), utilizând 
 ---
 
 ## Autor
-- **[Numele tău]**
+- **Ardelean Robert**
