@@ -1,0 +1,267 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    font-family: "Press Start 2P", Arial, sans-serif; /* Using your font */
+    font-size: 2.5em; /* Header font size */
+    margin-bottom: 20px; /* Space below header */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(55, 50, 50); /* Dark background for navbar */
+    padding: 10px 0; /* Padding around navbar */
+    position: sticky; /* Sticky navbar */
+    top: 0; /* Sticks to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure navbar is above other elements */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center navbar items */
+}
+
+.navbar li {
+    margin: 0 60px; /* Space between navbar items */
+}
+
+.navbar a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding for links */
+    display: block; /* Make links block elements */
+    font-family: Arial, sans-serif; /* Font for links */
+    font-size: 1.1em; /* Font size for links */
+    text-transform: uppercase; /* Uppercase links */
+    transition: background-color 0.3s ease; /* Transition effect for hover */
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+.navbar a:hover {
+    background-color: rgb(130, 120, 120); /* Change background on hover */
+}
+
+/* Product list styles */
+.product-list {
+    display: flex; /* Flexbox for product layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center products horizontally */
+    gap: 30px; /* Space between product items */
+    margin-top: 20px; /* Space above product list */
+    font-family: "Comic Neue", Arial, sans-serif;
+}
+
+/* Individual product item styles */
+.product-item {
+    background-color: #fff; /* White background for product items */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the boxes */
+    width: 200px; /* Fixed width for product boxes */
+    text-align: center; /* Center text inside boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Button styling */
+.btn {
+    display: inline-block; /* Block level button */
+    padding: 10px 15px; /* Padding for button */
+    background-color: rgb(55, 50, 50); /* Button background color */
+    color: rgb(255, 255, 255); /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Space above button */
+    text-align: center; /* Center the button text */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.btn:hover {
+    background-color: rgb(80, 80, 80); /* lighter shade on hover */
+}
+
+
+.cart-items {
+    max-width: 800px; /* Set a max width for the cart */
+    margin: 20px auto; /* Center the cart items */
+    padding: 20px; /* Padding for the cart area */
+    background-color: #fff; /* White background for the cart */
+    border-radius: 10px; /* Rounded corners for the cart */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+    margin-bottom: 20px; /* Space below the table */
+    font-family: "Comic Neue", Arial, sans-serif;
+}
+
+th, td {
+    padding: 12px; /* Padding for cells */
+    text-align: left; /* Left align text */
+    border-bottom: 1px solid #ddd; /* Bottom border for rows */
+}
+
+th {
+    background-color: rgb(55, 50, 50); /* Dark background for headers */
+    color: white; /* White text for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+tr:hover {
+    background-color: #f5f5f5; /* Light gray background on row hover */
+}
+
+/* Checkout section styling */
+.checkout {
+    text-align: right; /* Align checkout button to the right */
+    font-family: "Comic Neue", Arial, sans-serif;
+}
+
+/* Product details styling */
+.product-details {
+    max-width: 600px; /* Set a max width for the product details */
+    margin: 20px auto; /* Center the product details box */
+    padding: 20px; /* Padding for the box */
+    background-color: #fff; /* White background for the product details */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: "Comic Neue", Arial, sans-serif; /* Use the specified font */
+}
+
+/* Product details heading */
+.product-details h2 {
+    font-size: 1.8em; /* Size of the product title */
+    margin-bottom: 10px; /* Space below title */
+    color: #333; /* Dark color for the title */
+}
+
+/* Form styling */
+.product-details form {
+    display: flex; /* Flexbox for form layout */
+    align-items: center; /* Center align items */
+    margin-top: 15px; /* Space above the form */
+}
+
+.product-details label {
+    margin-right: 10px; /* Space between label and input */
+    font-weight: bold; /* Bold text for label */
+}
+
+/* Input styling */
+.product-details input[type="number"] {
+    width: 70px; /* Set a fixed width for the input */
+    padding: 5px; /* Padding for input */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+    font-size: 1em; /* Font size for input */
+}
+
+/* Order box styling */
+.orders-box {
+    border: 2px solid #ddd; /* Light gray border for box */
+    padding: 20px; /* Increased padding for better spacing */
+    margin-top: 30px; /* Space above the orders box */
+    border-radius: 10px; /* More rounded corners */
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1200px; /* Max width for the box */
+    margin-left: auto; /* Center the box */
+    margin-right: auto; /* Center the box */
+}
+
+/* Order item styling */
+.order-item {
+    padding: 15px; /* Increased padding for better spacing */
+    border-bottom: 1px solid #eee; /* Lighter bottom border for items */
+    margin-bottom: 10px; /* Space between order items */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.order-item:hover {
+    background-color: #f5f5f5; /* Light gray background on hover */
+}
+
+.orders-box h2 {
+    text-align: center; /* Center the title */
+    font-family: "Comic Neue", Arial, sans-serif; /* Consistent font */
+    margin-bottom: 15px; /* Space below the title */
+    color: rgb(55, 50, 50); /* Dark color for the title */
+}
+
+/* Checkout form styling */
+.checkout-form {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form horizontally with equal top and bottom margins */
+    padding: 30px; /* Padding for the form area */
+    background-color: #fff; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Checkout form label styling */
+.checkout-form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 8px; /* Space below labels for better readability */
+    font-weight: bold; /* Bold text for labels */
+}
+
+/* Checkout form input styling */
+.checkout-form input[type="text"],
+.checkout-form input[type="email"],
+.checkout-form input[type="tel"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+    font-size: 1em; /* Font size for inputs */
+}
+
+/* Checkout form total heading */
+.checkout-form h2 {
+    margin-top: 20px; /* Space above total */
+    color: rgb(55, 50, 50); /* Dark color for the total */
+    font-family: "Comic Neue", Arial, sans-serif; /* Consistent font */
+}
+
+/* Message styling */
+.message {
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Space above and below the message */
+    padding: 10px; /* Padding inside the message box */
+    background-color: #d4edda; /* Optional: light green background */
+    color: #155724; /* Optional: dark green text color */
+    border: 1px solid #c3e6cb; /* Optional: border for the message box */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+.report-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
