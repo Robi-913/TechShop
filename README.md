@@ -1,4 +1,4 @@
-# E-Commerce Website - PHP & OOP
+# Tech Shop 
 
 ## Despre
 Acest proiect este un website complet de e-commerce dezvoltat integral în PHP, utilizând o arhitectură profesională bazată pe Model-View-Controller (MVC) și concepte de Programare Orientată pe Obiecte (OOP). Website-ul permite utilizatorilor să vizualizeze produse, să consulte detalii individuale, să adauge produse în coșul de cumpărături, să finalizeze comenzi și să vizualizeze rapoarte și istoricul achizițiilor.
